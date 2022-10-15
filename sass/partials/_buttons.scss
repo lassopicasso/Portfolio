@@ -10,7 +10,7 @@
   font-family: $font-secondary;
   font-size: 20px;
   color: getColor(main);
-  transition: 0.5s;
+  transition: 0.7s;
   box-shadow: 0px 0px 0px 20px rgba(0, 0, 0, 0.2);
   &:hover {
     background: getColor(button-hover);

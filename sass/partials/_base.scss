@@ -81,11 +81,36 @@ section:not(#contact) {
 }
 
 .welcome {
-  height: 78vh;
-  margin-top: 50px;
+  // height: 100%;
+  // margin-top: 50px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+
+  // justify-content: space-around;
+
+  &__main {
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    height: 100%;
+    grid-template-rows: 1fr;
+
+    flex-direction: column;
+    justify-content: space-around !important;
+    // & > * {
+    //   flex: auto;
+    // }
+    // flex: 100%;
+    // background-color: red;
+    // h1,
+    // div,
+    // a {
+    //   flex: 1;
+    // }
+  }
+  &__cta {
+    align-items: center;
+  }
 }
 
 @media only screen and (max-width: 800px) {

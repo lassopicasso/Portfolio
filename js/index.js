@@ -8,6 +8,21 @@ navMenu();
 scrollEffects();
 document.addEventListener("DOMContentLoaded", typeWriter);
 
+// /*Welcome*/
+const welcomeElements = document.querySelector(".welcome");
+const distanceFromTop = window.pageYOffset + welcomeElements.getBoundingClientRect().top;
+const welcomeHeight = window.innerHeight - distanceFromTop;
+welcomeElements.style.height = `${welcomeHeight - 20}px`;
+// const welcomeElements = document.querySelector(".welcome__main");
+// const distanceFromTop = window.pageYOffset + welcomeElements.getBoundingClientRect().top;
+// const welcomeHeight = window.innerHeight - distanceFromTop;
+// console.log(distanceFromTop);
+// console.log(welcomeHeight);
+// console.log(welcomeElements);
+// welcomeElements.style.height = `${welcomeHeight - 20}px`;
+
+// const heightOfWelcome = (window.innerHeight / )
+
 /*Skills*/
 
 const navSkills = document.querySelectorAll(".skills__nav-link");
