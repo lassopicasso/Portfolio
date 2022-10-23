@@ -22,12 +22,12 @@ export const skillsArray = [
 
   {
     title: "JavaScript",
-    text: "I master JS vanilla on a solid level where I can use my commitment to create well-functioning solutions. I've gradually gained experience with React. I enjoy working with it, and plan to use it in the upcoming projects, Disc Golf Tour and Hangman World. From the studies I also gained some experience with NextJS and TypeScript, and further down the road I want to build some projects with them.",
+    text: "I master JS vanilla on a solid level where I can use my commitment to create well-functioning solutions. I've gradually gained experience with React. I enjoy working with it, and plan to use it in the upcoming projects; Disc Golf Tour and Hangman World. <span class='text--block'>From the studies I also gained some experience with NextJS and TypeScript, and further down the road I want to build some projects with them.</span>",
     keyword: ["React,", "TypeScript,", "NextJS"],
   },
   {
     title: "CSS",
-    text: "The newer projects are styled with Sass. There are some nice features and by using BEM class it let me build neat and concise styling scripts. <span class='text--block'>Have built some projects with Bootstrap, e.g. “Weatherish”.</span> And some experience with Tailwind, but not in any bigger project yet.",
+    text: "The newer projects are styled with Sass. It got some nice features and by using BEM class it let me build neat and concise styling scripts. <span class='text--block'>Have built some projects with Bootstrap, e.g. “Weatherish”.</span> And some experience with Tailwind, but not in any bigger project yet.",
     keyword: ["Sass,", "Bootstrap,", "Tailwind"],
   },
   {
@@ -37,7 +37,7 @@ export const skillsArray = [
   },
   {
     title: "Backend",
-    text: " I've built several Rest API's through services such as Strapi and WordPress. Also have some experience with SQL from when I studied at Molde University College. However, it's been a while and I would need to strengthen this knowledge before I can start to implement it to bigger projects. <p> Later on the goal is to become a full stack dev. </p>",
+    text: " I've built several Rest API's through services such as Strapi and WordPress. Also have some experience with SQL from when I studied at Molde University College. Unfortunately, it's been a while. Need to strengten this knowledge before I can start implement it to bigger projects. <p> The goal is to become a full stack dev later on. </p>",
     keyword: ["Rest API,", "SQL"],
   },
 ];
