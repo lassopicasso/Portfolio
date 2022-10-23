@@ -2,7 +2,7 @@ export default function typeWriter() {
   const about = `<a href="#about">about me</a>`;
   const projects = `<a href="#projects">my projects</a>`;
   var i = 0;
-  var txt = `Hi! I'm Lars Walderhaug and Front End Developer. Here you can get to know ?${about} and +${projects}.`;
+  var txt = `Hi! I'm Lars and a Front-end developer. Here you can get to know ?${about} and +${projects}.`;
 
   var speed = 70;
   let welcomeMessage = document.querySelector(".welcome__typewriter p");
