@@ -1,23 +1,44 @@
 export const skillsArray = [
+  // {
+  //   title: "JavaScript",
+  //   text: "I master JavaScript vanilla at a fairly high level and can use my analytic skills to create well-functioning solutions for an interactive website. Whenever it's convenient I use HTML DOM to make the HTML doc as neat as possible. I have some experience to React, and will focus on strenghten these skills in the upcoming months.",
+  //   keyword: ["React", "HTML DOM"],
+  // },
+  // {
+  //   title: "HTML",
+  //   text: "Since I was a child, when I build my Lego worlds, I have always liked the idea of building stuff. With HTML I have the opportunity to create cool semantic constructions with nice use of BEM-classes.",
+  //   keyword: ["Semantic", "BEM-classes"],
+  // },
+  // {
+  //   title: "CSS",
+  //   text: "Lately I have gained good experience using sass in my projects. This simplifies the work in css, and makes the scripts more neat. In smaller projects I have gained some experience using the frameworks Bootstrap and Tailwind. I will focus to gain more experience on these frameworks in further projects.",
+  //   keyword: ["SCSS", "Bootstrap", "Tailwind"],
+  // },
+  // {
+  //   title: "Design",
+  //   text: "At present time I've designed all my projects. With tools as Adobe XD, and following design principles I manage to create websites that looks nice with a good usability, where both UX and UI is in focus.",
+  //   keyword: ["Usability", "UX", "UI"],
+  // },
+
   {
     title: "JavaScript",
-    text: "I master JavaScript vanilla at a fairly high level and can use my analytic skills to create well-functioning solutions for an interactive website. Whenever it's convenient I use HTML DOM to make the HTML doc as neat as possible. I have some experience to React, and will focus on strenghten these skills in the upcoming months.",
-    keyword: ["React", "HTML DOM"],
-  },
-  {
-    title: "HTML",
-    text: "Since I was a child, when I build my Lego worlds, I have always liked the idea of building stuff. With HTML I have the opportunity to create cool semantic constructions with nice use of BEM-classes.",
-    keyword: ["Semantic", "BEM-classes"],
+    text: "I master JS vanilla on a solid level where I can use my commitment to create well-functioning solutions. I've gradually gained experience with React. I enjoy working with it, and plan to use it in the upcoming projects, Disc Golf Tour and Hangman World. From the studies I also gained some experience with NextJS and TypeScript, and further down the road I want to build some projects with them.",
+    keyword: ["React", "TypeScript", "NextJS"],
   },
   {
     title: "CSS",
-    text: "Lately I have gained good experience using sass in my projects. This simplifies the work in css, and makes the scripts more neat. In smaller projects I have gained some experience using the frameworks Bootstrap and Tailwind. I will focus to gain more experience on these frameworks in further projects.",
-    keyword: ["SCSS", "Bootstrap", "Tailwind"],
+    text: "The newer projects are styled with Sass. I enjoy the opportunity it gives, and by using BEM class it let me build neat and concise styling scripts. Have built some projects with Bootstrap, such as the project “Weatherish”. Some experience with Tailwind, but not in any bigger project yet.",
+    keyword: ["Sass", "Bootstrap", "Tailwind"],
   },
   {
     title: "Design",
     text: "At present time I've designed all my projects. With tools as Adobe XD, and following design principles I manage to create websites that looks nice with a good usability, where both UX and UI is in focus.",
     keyword: ["Usability", "UX", "UI"],
+  },
+  {
+    title: "Backend",
+    text: "Some experience from when I studied information technology in Molde University College. Where I learned to build database from scratch, planning database’s structure to coding the structure in SQL. However, since it’s been a while, I would need to refresh my knowledge before I can start implement this to my projects. In the future I want enhance this knowledge to be able become a full stack dev. However, I've built several Rest API's through services such as Strapi and WordPress.",
+    keyword: ["Rest API", "SQL"],
   },
 ];
 

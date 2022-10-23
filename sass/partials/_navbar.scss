@@ -38,10 +38,10 @@ header {
   &__list {
     display: flex;
     list-style: none;
-    margin-right: 20px;
+    gap: 20px;
+    align-items: center;
   }
   &__link {
-    margin-left: 20px;
     a {
       font-size: 22px;
       display: block;
@@ -52,6 +52,22 @@ header {
         color: getColor(active) !important;
       }
     }
+  }
+}
+
+.cv {
+  letter-spacing: 3px;
+  background-image: linear-gradient(getColor(link) 0 0);
+  padding: 0 2px 0 5px;
+  background-position: center 100%;
+  background-size: 85% 3px;
+  background-repeat: no-repeat;
+  &:hover {
+    letter-spacing: 4px;
+    transition: 0.3s;
+    background-image: linear-gradient(getColor(active) 3 0);
+    background-position: center 100%;
+    background-size: 100% 3px;
   }
 }
 
@@ -112,5 +128,9 @@ header {
         padding-bottom: 10px;
       }
     }
+  }
+  .cv {
+    background-size: 173px 3px;
+    background-position: 50px 80%;
   }
 }
