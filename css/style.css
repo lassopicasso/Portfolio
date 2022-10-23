@@ -118,7 +118,8 @@ section:not(#contact) {
 h1,
 h2,
 h3,
-.nav__link {
+.nav__link,
+.menu__dropdown li a {
   text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.6);
 }
 
