@@ -114,7 +114,10 @@ section:not(#contact) {
 }
 
 .featured__links,
-.project__links {
+.project__links,
+h1,
+h2,
+h3 {
   text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.6);
 }
 
