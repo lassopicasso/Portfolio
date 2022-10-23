@@ -23,22 +23,22 @@ export const skillsArray = [
   {
     title: "JavaScript",
     text: "I master JS vanilla on a solid level where I can use my commitment to create well-functioning solutions. I've gradually gained experience with React. I enjoy working with it, and plan to use it in the upcoming projects, Disc Golf Tour and Hangman World. From the studies I also gained some experience with NextJS and TypeScript, and further down the road I want to build some projects with them.",
-    keyword: ["React", "TypeScript", "NextJS"],
+    keyword: ["React,", "TypeScript,", "NextJS"],
   },
   {
     title: "CSS",
     text: "The newer projects are styled with Sass. I enjoy the opportunity it gives, and by using BEM class it let me build neat and concise styling scripts. Have built some projects with Bootstrap, such as the project “Weatherish”. Some experience with Tailwind, but not in any bigger project yet.",
-    keyword: ["Sass", "Bootstrap", "Tailwind"],
+    keyword: ["Sass,", "Bootstrap,", "Tailwind"],
   },
   {
     title: "Design",
     text: "At present time I've designed all my projects. With tools as Adobe XD, and following design principles I manage to create websites that looks nice with a good usability, where both UX and UI is in focus.",
-    keyword: ["Usability", "UX", "UI"],
+    keyword: ["Adobe XD,", "UX,", "UI"],
   },
   {
     title: "Backend",
     text: " I've built several Rest API's through services such as Strapi and WordPress. Also have some experience with SQL from when I studied at Molde University College. However, it's been a while and I would need to strengthen this knowledge before I can start to implement it to my projects. The goal is to become a full stack dev in the future.",
-    keyword: ["Rest API", "SQL"],
+    keyword: ["Rest API,", "SQL"],
   },
 ];
 
