@@ -27,7 +27,7 @@ export const skillsArray = [
   },
   {
     title: "CSS",
-    text: "The newer projects are styled with Sass. It got some nice features and by using BEM class it let me build neat and concise styling scripts. <span class='text--block'>Have built some projects with Bootstrap, e.g. “Weatherish”.</span> And some experience with Tailwind, but not in any bigger project yet.",
+    text: "The newer projects are styled with Sass. It got some nice features and by using BEM class it let me build neat and concise styling scripts. <span class='text--block'>Have built some projects with Bootstrap, e.g. “Weatherish”.</span> And some experience with Tailwind, but not yet in any larger project.",
     keyword: ["Sass,", "Bootstrap,", "Tailwind"],
   },
   {
@@ -37,7 +37,7 @@ export const skillsArray = [
   },
   {
     title: "Backend",
-    text: " I've built several Rest API's through services such as Strapi and WordPress. Also have some experience with SQL from when I studied at Molde University College. Unfortunately, it's been a while. Need to strengten this knowledge before I can start implement it to bigger projects. <p> The goal is to become a full stack dev later on. </p>",
+    text: " I've built several Rest API's through services such as Strapi and WordPress. Also have some experience with SQL from when I studied at Molde University College. Unfortunately, it's been a while. Need to strengten this knowledge before I can start implement it to larger projects. <p> The goal is to become a full stack dev later on. </p>",
     keyword: ["Rest API,", "SQL"],
   },
 ];
