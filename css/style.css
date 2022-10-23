@@ -569,6 +569,10 @@ select {
   transition: 0.8s;
 }
 
+.text--block {
+  display: block;
+}
+
 .skills {
   display: -webkit-box;
   display: -ms-flexbox;

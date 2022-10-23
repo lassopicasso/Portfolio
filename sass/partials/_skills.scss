@@ -12,7 +12,9 @@
 #skills.visible {
   @extend %section-display;
 }
-
+.text--block {
+  display: block;
+}
 .skills {
   display: flex;
   position: relative;
