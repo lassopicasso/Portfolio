@@ -54,7 +54,7 @@ export function displayProjects(projectsContainer, project) {
                                     <div>
                                       JS: ${project.javascript} - CSS: ${project.css}
                                     </div>
-                                    <div>
+                                    <div class="project__links">
                                       <a href="${project.url}">Website</a> <a href="${project.github}">Github</a>
                                     <div>
                                   </div>
