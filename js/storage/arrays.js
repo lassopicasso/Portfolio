@@ -37,7 +37,7 @@ export const skillsArray = [
   },
   {
     title: "Backend",
-    text: " I've built several Rest API's through services such as Strapi and WordPress. Also have some experience with SQL from when I studied at Molde University College. Unfortunately, it's been a while. Need to strengten this knowledge before I can start implement it to larger projects. <p> The goal is to become a full stack dev later on. </p>",
+    text: " I've built several Rest API's through services such as Strapi and WordPress. Also have some experience with SQL from when I studied at Molde University College. Unfortunately, it's been a while. Need to strengten this knowledge before I can start implement it to larger projects. That is my goal.",
     keyword: ["Rest API,", "SQL"],
   },
 ];
