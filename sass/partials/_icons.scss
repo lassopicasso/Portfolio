@@ -1,6 +1,10 @@
 .social-media {
   display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 150px;
+  gap: 3px;
   margin: auto;
   margin-top: 0px;
   text-align: center;
@@ -37,8 +41,23 @@
 
 .fa-github,
 .fa-linkedin,
-.fa-facebook-square {
+.fa-facebook-square,
+.social-media__cv {
   &:hover {
     transform: scale(1.1);
+  }
+}
+
+.social-media__cv {
+  font-family: $font-secondary;
+  letter-spacing: 2px;
+  font-size: 22px;
+  border: 2px solid getColor(active);
+  border-radius: 5px;
+  margin-left: 3px;
+  padding: 3px 5px 0px 6px;
+  transition: 0.3s;
+  &:hover {
+    border: 1px solid getColor(active);
   }
 }
