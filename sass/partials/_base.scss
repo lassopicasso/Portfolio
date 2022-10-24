@@ -6,7 +6,7 @@ body {
   font-size: 18px;
   width: 100%;
   margin: 0;
-  height: calc(100vw + 60px);
+  height: calc(100vh + 60px);
   min-height: calc(100vh + 60px);
   display: grid;
   grid-template-rows: auto 1fr auto;
@@ -95,19 +95,8 @@ section:not(#contact) {
     margin-bottom: 40px;
     height: 100%;
     grid-template-rows: 1fr;
-
     flex-direction: column;
     justify-content: space-around !important;
-    // & > * {
-    //   flex: auto;
-    // }
-    // flex: 100%;
-    // background-color: red;
-    // h1,
-    // div,
-    // a {
-    //   flex: 1;
-    // }
   }
   &__cta {
     align-items: center;
