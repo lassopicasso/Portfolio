@@ -38,11 +38,12 @@ header {
   &__list {
     display: flex;
     list-style: none;
-    gap: 20px;
+    padding-left: 0px;
     align-items: center;
   }
   &__link {
     a {
+      margin-left: 20px;
       font-size: 22px;
       display: block;
       width: 100%;
