@@ -4,7 +4,7 @@
   align-items: center;
   justify-content: center;
   width: 150px;
-  gap: 3px;
+  gap: 10px;
   margin: auto;
   margin-top: 0px;
   text-align: center;
@@ -14,9 +14,11 @@
     @extend %background-hover;
   }
   .fab {
-    font-size: 38px;
-    margin: 5px;
+    font-size: 39px;
     transition: 0.3s;
+  }
+  .fa-github {
+    font-size: 37px;
   }
 }
 // .welcome__social-media {
@@ -54,7 +56,7 @@
   font-size: 23px;
   color: white;
   border: 2px solid getColor(active);
-  border-radius: 5px;
+  border-radius: 3px;
   margin-left: 3px;
   padding: 2px 5px 0px 6px;
   transition: 0.3s;
