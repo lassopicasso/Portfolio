@@ -9,7 +9,8 @@ body {
   font-size: 18px;
   width: 100%;
   margin: 0;
-  min-height: 100vh;
+  height: calc(100vw + 60px);
+  min-height: calc(100vh + 60px);
   display: -ms-grid;
   display: grid;
   -ms-grid-rows: auto 1fr auto;
@@ -401,12 +402,6 @@ footer div:nth-child(1) {
   margin-top: 20px;
   min-height: 140px;
   min-width: 250px;
-}
-
-@media only screen and (max-width: 360px) {
-  .welcome__typewriter {
-    padding-bottom: 50px;
-  }
 }
 
 .cta {
