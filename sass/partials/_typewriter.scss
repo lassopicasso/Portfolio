@@ -6,13 +6,13 @@
     @extend %background-hover;
   }
   p {
-    line-height: 2;
+    line-height: 1.7;
   }
 }
 
 .welcome__typewriter {
   margin-top: 20px;
-  min-height: 140px;
+  min-height: 90px;
   min-width: 250px;
 }
 
