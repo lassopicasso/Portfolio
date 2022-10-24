@@ -378,12 +378,12 @@ footer div:nth-child(1) {
 .social-media__cv {
   font-family: "Bebas Neue", sans-serif;
   letter-spacing: 2px;
-  font-size: 22px;
+  font-size: 23px;
   color: white;
   border: 2px solid #ff9100;
   border-radius: 5px;
   margin-left: 3px;
-  padding: 3px 5px 0px 6px;
+  padding: 2px 5px 0px 6px;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
