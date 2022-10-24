@@ -91,3 +91,12 @@
 .keywords {
   font-weight: bold;
 }
+
+@media only screen and (max-width: 800px) {
+  .skills__nav {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 100%;
+  }
+}
