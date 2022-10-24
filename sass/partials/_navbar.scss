@@ -55,22 +55,6 @@ header {
   }
 }
 
-// .cv {
-//   margin-left: -4px;
-//   letter-spacing: 3px;
-//   background-image: linear-gradient(getColor(link) 0 0);
-//   padding: 0 2px 0 5px;
-//   background-position: center 90%;
-//   background-size: 85% 2px;
-//   background-repeat: no-repeat;
-//   &:hover {
-//     letter-spacing: 4px;
-//     transition: 0.3s;
-//     background-image: linear-gradient(getColor(active) 3 0);
-//     background-size: 100% 2px;
-//   }
-// }
-
 .menu {
   display: none;
   .fa-bars {
@@ -97,10 +81,10 @@ header {
   .logo {
     font-size: 26px;
   }
-  .welcome__social-media {
-    margin-top: 20px !important;
-    margin-bottom: 20px !important;
-  }
+  // .welcome__social-media {
+  //   margin-top: 20px !important;
+  //   margin-bottom: 20px !important;
+  // }
   .nav__list {
     display: none;
   }
