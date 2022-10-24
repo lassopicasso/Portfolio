@@ -93,7 +93,7 @@ section:not(#contact) {
     display: flex;
     margin-top: 40px;
     margin-bottom: 40px;
-    height: 100%;
+    height: calc(100% - 40px);
     grid-template-rows: 1fr;
     flex-direction: column;
     justify-content: space-around !important;
