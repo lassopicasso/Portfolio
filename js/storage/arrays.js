@@ -50,8 +50,19 @@ export const featuredArray = [
   //   image: "../../images/runningshoes.jpg",
   //   url: "https://running-shoes.netlify.app",
   // },
+
   {
     id: "0",
+    title: "Hangman World",
+    text: "Hangman game that use an external API that contains capitals around the world. If the player manage to get a top 10 score, it will be saved in a REST API that I have built in strapi, and will be displayed in the top 10-page",
+    image: "../../images/hangman-world.jpg",
+    url: "https://hangman-world.netlify.app/",
+    github: "https://github.com/lassopicasso/hangman-world.git",
+    javascript: "React",
+    css: "Scss",
+  },
+  {
+    id: "1",
     title: "Holidaze",
     text: "Final exam in my studies. Built a booking website for the Bergen area. Strapi and heroku as back-end. The website consists of both visitor- and admin-facing pages. It let visitors send enquiries to accommodation owners, post/read reviews of accommodation.",
     image: "../../images/holidaze.jpg",
@@ -60,16 +71,16 @@ export const featuredArray = [
     javascript: "React",
     css: "Scss",
   },
-  {
-    id: "1",
-    title: "Blogland",
-    text: "A design that covers nicely the theme of this website. Easy to navigate with sort functions that gives a good usability when searching for content. The website use headless CMS from WordPress.",
-    image: "../../images/blog.jpg",
-    url: "https://bloglaand.netlify.app",
-    github: "https://github.com/lassopicasso/Project-Exam---updated.git",
-    javascript: "JS Vanilla",
-    css: "CSS",
-  },
+  // {
+  //   id: "1",
+  //   title: "Blogland",
+  //   text: "A design that covers nicely the theme of this website. Easy to navigate with sort functions that gives a good usability when searching for content. The website use headless CMS from WordPress.",
+  //   image: "../../images/blog.jpg",
+  //   url: "https://bloglaand.netlify.app",
+  //   github: "https://github.com/lassopicasso/Project-Exam---updated.git",
+  //   javascript: "JS Vanilla",
+  //   css: "CSS",
+  // },
   // {
   //   id: "1",
   //   title: "Weatherish",
@@ -80,6 +91,16 @@ export const featuredArray = [
 ];
 
 export const projectsArray = [
+  {
+    title: "Hangman World",
+    theme: "Quiz game",
+    date: "2022, 11, 05",
+    image: "../../images/hangman-world.jpg",
+    url: "https://hangman-world.netlify.app/",
+    github: "https://github.com/lassopicasso/hangman-world.git",
+    javascript: "React",
+    css: "Scss",
+  },
   {
     title: "Holidaze",
     theme: "Booking service",
