@@ -10,13 +10,13 @@ export default function typeWriter() {
     if (i < txt.length) {
       if (i === 3) {
         textChecker();
-        setTimeout(typeWriter, 800);
+        setTimeout(typeWriter, 600);
       } else if (i < 48) {
         textChecker();
         setTimeout(typeWriter, speed);
       } else if (i === 48) {
         textChecker();
-        setTimeout(typeWriter, 800);
+        setTimeout(typeWriter, 650);
       } else {
         textChecker();
         setTimeout(typeWriter, speed);
