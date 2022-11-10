@@ -22,17 +22,17 @@ export const skillsArray = [
 
   {
     title: "JavaScript",
-    text: "I master JS vanilla on a solid level where I can use my commitment to create well-functioning solutions. I've gradually gained experience with React. I enjoy working with it, and plan to use it in the upcoming projects; Disc Golf Tour and Hangman World. <span class='text--block'>From the studies I also gained some experience with NextJS and TypeScript, and further down the road I want to build some projects with them.</span>",
+    text: "I master JS vanilla on a solid level where I can use my commitment to create well-functioning solutions. I've gradually gained experience with React. I enjoy working with it, and plan to use it in the upcoming projects; Disc Golf Tour and Hangman World. <span class='text--block'>From the studies I also gained some experience with NextJS and TypeScript, and further down the road I would like to build some projects using them.</span>",
     keyword: ["React,", "TypeScript,", "NextJS"],
   },
   {
     title: "CSS",
-    text: "The newer projects are styled with Sass. It got some nice features and by using BEM class it let me build neat and concise styling scripts. <span class='text--block'>Have built some projects with Bootstrap, e.g. “Weatherish”.</span> And some experience with Tailwind, but not yet in any larger project.",
+    text: "The newer projects are styled with Sass. It has some nice features and by using BEM class it let me build neat and concise styling scripts. <span class='text--block'> I have built some projects with Bootstrap, e.g. “Weatherish”.</span> And have some experience with Tailwind, but not yet in any larger project.",
     keyword: ["Sass,", "Bootstrap,", "Tailwind"],
   },
   {
     title: "Design",
-    text: "At present time I've designed all my projects. With tools as Adobe XD, and following design principles I manage to create websites that looks nice with a good usability, where both UX and UI is in focus.",
+    text: "At present time I've designed all my projects. With tools like Adobe XD, and following design principles, I manage to create websites that looks nice with a good usability, where both UX and UI is in focus.",
     keyword: ["Adobe XD,", "UX,", "UI"],
   },
   {
