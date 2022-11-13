@@ -8,6 +8,12 @@ navMenu();
 scrollEffects();
 document.addEventListener("DOMContentLoaded", typeWriter);
 
+// Scroll to top
+const scrollToTop = document.querySelector(".scrollToTop");
+scrollToTop.addEventListener("click", () => {
+  window.scrollTo({ top: 0, behavior: "smooth" });
+});
+
 // /*Welcome*/
 const welcomeElements = document.querySelector(".welcome");
 const distanceFromTop = window.pageYOffset + welcomeElements.getBoundingClientRect().top;
