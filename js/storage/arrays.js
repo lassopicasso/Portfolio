@@ -54,7 +54,7 @@ export const featuredArray = [
   {
     id: "0",
     title: "Hangman World",
-    text: "Hangman game that makes geography fun. Choose a continent or the world. It use an API with capitals around the world. If the player gets a top 10 score, it will be saved in a REST API that is built in strapi and displayed in the top 10-page",
+    text: "Hangman game that makes geography fun. Choose a continent or the world. It use an API with capitals around the world. If the player gets a top 10 score, it will be saved in a REST API that is built in strapi and displayed on the top 10-page",
     image: "../../images/hangman-world.jpg",
     url: "https://hangman-world.netlify.app/",
     github: "https://github.com/lassopicasso/hangman-world.git",
