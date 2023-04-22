@@ -120,3 +120,18 @@ header {
     background-position: 50px 80%;
   }
 }
+
+.sidebar {
+  position: absolute;
+  z-index: 5;
+  right: 0;
+  padding: 100% 60px;
+  top: 0;
+  background-color: rgba(15, 16, 48, 0.7);
+}
+
+.sidebar__menu {
+  position: absolute;
+  inset: 50vh 0;
+  text-align: center;
+}
