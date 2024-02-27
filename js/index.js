@@ -2,11 +2,31 @@ import typeWriter from "./components/typewrite.js";
 import { skillsArray, featuredArray, projectsArray } from "./storage/arrays.js";
 import { navMenu } from "./components/menu.js";
 import scrollEffects from "./components/scroll.js";
-import { displaySkills, displayFeatured, displayProjects } from "./components/createhtml.js";
+import {
+  displaySkills,
+  displayFeatured,
+  displayProjects,
+} from "./components/createhtml.js";
 
 navMenu();
 scrollEffects();
 document.addEventListener("DOMContentLoaded", typeWriter);
+
+// Test Intl.FormatNumber>
+const inputFormatting = document.querySelector(".input__intlFormat");
+console.log(inputFormatting.target);
+inputFormatting.addEventListener("keydown", (e) => formatInput(e));
+function formatInput(e) {
+  let currentValue = e.target.value.string();
+  currentValue = currentValue + pastValue;
+  const lang = document.documentElement.lang;
+
+  inputFormatting.value = new Intl.NumberFormat(lang, {
+    style: "currency",
+    currency: "NOK",
+  }).format(currentValue);
+  let pastValue = e.target.value.string();
+}
 
 // Scroll to top
 const scrollToTop = document.querySelector(".scrollToTop");
@@ -16,7 +36,8 @@ scrollToTop.addEventListener("click", () => {
 
 // /*Welcome*/
 const welcomeElements = document.querySelector(".welcome");
-const distanceFromTop = window.pageYOffset + welcomeElements.getBoundingClientRect().top;
+const distanceFromTop =
+  window.pageYOffset + welcomeElements.getBoundingClientRect().top;
 const welcomeHeight = window.innerHeight - distanceFromTop;
 welcomeElements.style.height = `${welcomeHeight - 20}px`;
 // const welcomeElements = document.querySelector(".welcome__main");
@@ -125,7 +146,10 @@ function sortProjects() {
   });
 
   let filteredProjects = sortedProjects.filter((project) => {
-    return (project.css.toLowerCase() === filteredCSS || filteredCSS === "all") && (project.javascript.toLowerCase() === filteredJS || filteredJS === "all");
+    return (
+      (project.css.toLowerCase() === filteredCSS || filteredCSS === "all") &&
+      (project.javascript.toLowerCase() === filteredJS || filteredJS === "all")
+    );
   });
   createProjects(filteredProjects);
 }
@@ -133,11 +157,7 @@ function sortProjects() {
 function createProjects(projects) {
   const projectsContainer = document.querySelector(".all-projects__wrapper");
   projectsContainer.innerHTML = "";
-  console.log(projects);
-  console.log(typeof projects);
-  console.log(projects.length);
   if (projects.length === 0) {
-    console.log("heyhey ");
     projectsContainer.innerHTML = "<div>Sorry, no projects here atm. :)</div>";
   }
   projects.forEach((project) => {

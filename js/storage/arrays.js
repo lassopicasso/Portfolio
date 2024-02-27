@@ -1,25 +1,4 @@
 export const skillsArray = [
-  // {
-  //   title: "JavaScript",
-  //   text: "I master JavaScript vanilla at a fairly high level and can use my analytic skills to create well-functioning solutions for an interactive website. Whenever it's convenient I use HTML DOM to make the HTML doc as neat as possible. I have some experience to React, and will focus on strenghten these skills in the upcoming months.",
-  //   keyword: ["React", "HTML DOM"],
-  // },
-  // {
-  //   title: "HTML",
-  //   text: "Since I was a child, when I build my Lego worlds, I have always liked the idea of building stuff. With HTML I have the opportunity to create cool semantic constructions with nice use of BEM-classes.",
-  //   keyword: ["Semantic", "BEM-classes"],
-  // },
-  // {
-  //   title: "CSS",
-  //   text: "Lately I have gained good experience using sass in my projects. This simplifies the work in css, and makes the scripts more neat. In smaller projects I have gained some experience using the frameworks Bootstrap and Tailwind. I will focus to gain more experience on these frameworks in further projects.",
-  //   keyword: ["SCSS", "Bootstrap", "Tailwind"],
-  // },
-  // {
-  //   title: "Design",
-  //   text: "At present time I've designed all my projects. With tools as Adobe XD, and following design principles I manage to create websites that looks nice with a good usability, where both UX and UI is in focus.",
-  //   keyword: ["Usability", "UX", "UI"],
-  // },
-
   {
     title: "JavaScript",
     text: "I master JS vanilla on a solid level where I can use my commitment to create well-functioning solutions. I've gradually gained experience with React. I enjoy working with it, and plan to use it in the upcoming projects; Disc Golf Tour and Hangman World. <span class='text--block'>From the studies I also gained some experience with NextJS and TypeScript, and further down the road I would like to build some projects using them.</span>",
@@ -43,16 +22,18 @@ export const skillsArray = [
 ];
 
 export const featuredArray = [
-  // {
-  //   id: "0",
-  //   title: "Running Shoes",
-  //   text: "E-commerce website. Well functioned shopping cart. Where I've used a combo of local storage and Strapi API to make the website run well. Also created an admin login so that products can be added or edited in the website.",
-  //   image: "../../images/runningshoes.jpg",
-  //   url: "https://running-shoes.netlify.app",
-  // },
-
   {
     id: "0",
+    title: "Christmas Games",
+    text: "A collection of Christmas games. It's built with React and styled with CSS modules. It's a fun project that I built for the Christmas season for my nephews and aiming for a full release christmas 2024.",
+    image: "../../images/christmasgames.jpg",
+    url: "https://christmasGames2023.netlify.app/",
+    github: "/",
+    javascript: "React",
+    css: "CSS modules",
+  },
+  {
+    id: "1",
     title: "Hangman World",
     text: "Hangman game that makes geography fun. Choose a continent or the world. It use an API with capitals around the world. If the player gets a top 10 score, it will be saved in a REST API that is built in strapi and displayed on the top 10-page",
     image: "../../images/hangman-world.jpg",
@@ -61,16 +42,16 @@ export const featuredArray = [
     javascript: "React",
     css: "Scss",
   },
-  {
-    id: "1",
-    title: "Holidaze",
-    text: "Final exam in my studies. Built a booking website for the Bergen area. Strapi and heroku as back-end. The website consists of both visitor- and admin-facing pages. It let visitors send enquiries to accommodation owners, post/read reviews of accommodation.",
-    image: "../../images/holidaze.jpg",
-    url: "https://holidays.netlify.app",
-    github: "https://github.com/lassopicasso/exam-2.git",
-    javascript: "React",
-    css: "Scss",
-  },
+  // {
+  //   id: "2",
+  //   title: "Holidaze",
+  //   text: "Final exam in my studies. Built a booking website for the Bergen area. Strapi and heroku as back-end. The website consists of both visitor- and admin-facing pages. It let visitors send enquiries to accommodation owners, post/read reviews of accommodation.",
+  //   image: "../../images/holidaze.jpg",
+  //   url: "https://holidays.netlify.app",
+  //   github: "https://github.com/lassopicasso/exam-2.git",
+  //   javascript: "React",
+  //   css: "Scss",
+  // },
   // {
   //   id: "1",
   //   title: "Blogland",
@@ -91,6 +72,16 @@ export const featuredArray = [
 ];
 
 export const projectsArray = [
+  {
+    title: "Christmas Games",
+    theme: "Memory game",
+    date: "2023, 12, 23",
+    image: "../../images/christmasgames.jpg",
+    url: "https://christmasGames2023.netlify.app/",
+    github: "/",
+    javascript: "React TypeScript",
+    css: "CSS modules",
+  },
   {
     title: "Hangman World",
     theme: "Quiz game",
@@ -117,7 +108,8 @@ export const projectsArray = [
     date: "2022, 07, 30",
     image: "../../images/weatherforecast.jpg",
     url: "https://forecastsweather.netlify.app",
-    github: "https://github.com/lassopicasso/WeatherForecast---React-Project.git",
+    github:
+      "https://github.com/lassopicasso/WeatherForecast---React-Project.git",
     javascript: "React",
     css: "Bootstrap",
   },
