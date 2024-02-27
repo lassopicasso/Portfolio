@@ -88,7 +88,7 @@ function skill(event) {
 
 featuredArray.forEach((project) => {
   const featuredProjects = document.querySelector(".featured__projects");
-  displayFeatured(featuredProjects, project);
+  displayFeatured(featuredProjects, project, project.name);
 });
 
 /** Sort-button **/

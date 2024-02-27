@@ -14,11 +14,13 @@ export function displaySkills(title, description, keywords) {
   });
 }
 
-export function displayFeatured(featuredContainer, project) {
+export function displayFeatured(featuredContainer, project, repoName) {
   featuredContainer.innerHTML += `
                                       <div class="featured__project">
                                         <div class="featured__image-wrapper">  
-                                          <div class="featured__image featured__image-${project.id}"><a href="${project.url}"></a></div>
+                                          <div class="featured__image featured__image-${
+                                            project.id
+                                          }"><a href="${project.url}"></a></div>
                                         </div>
                                         <div class="featured__description">
                                           <div>
@@ -27,16 +29,24 @@ export function displayFeatured(featuredContainer, project) {
                                           </div>
                                           <div class="featured__tools">
                                             <div class="featured__links">
-                                              <a href="${project.url}">Website</a>
-                                              <a href="${project.github}">Github</a>
+                                              <a href="${
+                                                project.url
+                                              }">Website</a>
+                                              <a href="${
+                                                project.github
+                                              }">${`${project.githubName}`}</a>
                                             </div>
                                             <div>
-                                              Built with ${project.javascript} and ${project.css}
+                                              Built with ${
+                                                project.javascript
+                                              } and ${project.css}
                                             </div>
                                           </div>
                                       </div>
                                       `;
-  document.querySelector(`.featured__image-${project.id}`).style.backgroundImage = `url("${project.image}")`;
+  document.querySelector(
+    `.featured__image-${project.id}`
+  ).style.backgroundImage = `url("${project.image}")`;
 }
 
 export function displayProjects(projectsContainer, project) {
@@ -55,7 +65,7 @@ export function displayProjects(projectsContainer, project) {
                                       JS: ${project.javascript} - CSS: ${project.css}
                                     </div>
                                     <div class="project__links">
-                                      <a href="${project.url}">Website</a> <a href="${project.github}">Github</a>
+                                      <a href="${project.url}">Website</a> <a href="${project.github}">${project.githubName}</a>
                                     <div>
                                   </div>
                                 </div>
