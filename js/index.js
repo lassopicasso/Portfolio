@@ -13,20 +13,19 @@ scrollEffects();
 document.addEventListener("DOMContentLoaded", typeWriter);
 
 // Test Intl.FormatNumber>
-const inputFormatting = document.querySelector(".input__intlFormat");
-console.log(inputFormatting.target);
-inputFormatting.addEventListener("keydown", (e) => formatInput(e));
-function formatInput(e) {
-  let currentValue = e.target.value.string();
-  currentValue = currentValue + pastValue;
-  const lang = document.documentElement.lang;
+// const inputFormatting = document.querySelector(".input__intlFormat");
+// inputFormatting.addEventListener("keydown", (e) => formatInput(e));
+// function formatInput(e) {
+//   let currentValue = e.target.value.string();
+//   currentValue = currentValue + pastValue;
+//   const lang = document.documentElement.lang;
 
-  inputFormatting.value = new Intl.NumberFormat(lang, {
-    style: "currency",
-    currency: "NOK",
-  }).format(currentValue);
-  let pastValue = e.target.value.string();
-}
+//   inputFormatting.value = new Intl.NumberFormat(lang, {
+//     style: "currency",
+//     currency: "NOK",
+//   }).format(currentValue);
+//   let pastValue = e.target.value.string();
+// }
 
 // Scroll to top
 const scrollToTop = document.querySelector(".scrollToTop");
